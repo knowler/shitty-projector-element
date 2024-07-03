@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang=en-ca>
+<meta charset=utf-8>
+<title>Shitty Projector Emulation Demo</title>
+<style>
+	:root {
+		background-color: DeepPink;
+		color: color-mix(in oklch, DeepPink, White 30%)
+	}
+</style>
+<script type=module>
+import { ShittyProjectorElement } from "./shitty-projector-element.js";
+
+customElements.define("shitty-projector", ShittyProjectorElement);
+</script>
+<h1>Shitty Projector Emulation</h1>
+<shitty-projector></shitty-projector>
